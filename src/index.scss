@@ -4,7 +4,117 @@
 
 @tailwind utilities;
 
-.message a {
-  text-decoration: underline;
-  color: darkblue;
+.custom-shape-divider-top-1629800889 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1629800889 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1629800889 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1629800889 svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+}
+.custom-shape-divider-bottom-1629802186 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629802186 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-bottom-1629802186 .shape-fill {
+    fill: rgba(252, 165, 165, var(--tw-bg-opacity))
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1629802186 svg {
+        width: calc(100% + 1.3px);
+        height: 72px;
+    }
+}
+
+.custom-shape-divider-top-1629804312 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1629804312 svg {
+    position: relative;
+    display: block;
+    width: calc(245% + 1.3px);
+    height: 400px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1629804312 .shape-fill {
+    fill: rgba(252, 165, 165, var(--tw-bg-opacity));
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1629804312 svg {
+        width: calc(245% + 1.3px);
+        height: 72px;
+    }
+}
+
+.custom-shape-divider-bottom-1629804979 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629804979 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1629804979 .shape-fill {
+    fill: rgba(252, 211, 77, var(--tw-bg-opacity))
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1629804979 svg {
+        width: calc(100% + 1.3px);
+        height: 72px;
+    }
 }

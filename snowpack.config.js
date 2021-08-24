@@ -18,6 +18,7 @@ module.exports = {
     ],
   ],
   alias: {
+    '@pages': './src/pages',
     '@shared': './src/shared',
     '@components': './src/components',
   },
